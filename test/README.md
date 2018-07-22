@@ -16,11 +16,11 @@ testSpl002 is associated with SPL-002 requirement which will be failing. There a
 "https://" which is assumed to be a valid poster path. Also don't see any poster path to be null.
 
 Based on the requirement document
-	- GET query doesn't take any parameter so no matter what we pass after "?q=" it retrieves entire movie list. It doen't return
+	
+- GET query doesn't take any parameter so no matter what we pass after "?q=" it retrieves entire movie list. It doen't return
 	based on the movie parameter passed. Even it returns all result after passing null.
 
-	- POST query doesn't take any parameter to add any value. Even if it is associated with name, description. Moreover title or poster path added it doesn't add
-	any new movies. through CURL it displays the value that it was added "{ "message": "Splunking your submission using monkeys ..... success... movie posted to catalog" }" but while validating throgh GET request it is not showing those values added. Also it states "name" and "description" parameter in the POST query but don't see any attributes 
-	as same in the actual result query.
+- POST query doesn't take any parameter to add any value. Even if it is associated with name, description. Moreover title or poster path added it doesn't add any new movies. through CURL it displays the value that it was added "{ "message": "Splunking your submission using monkeys ..... success... movie posted to catalog" }" but while validating throgh GET request it is not showing those values added. Also it states "name" and "description" parameter in the POST query but don't see any attributes 
+as same in the actual result query.
 
 
